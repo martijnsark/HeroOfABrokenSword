@@ -32,6 +32,7 @@ public class PlayerHealth : MonoBehaviour
 		if (collision.collider.gameObject.CompareTag("Enemy1"))
 		{
 			TakeDamage(20);
+			
 		}
 	}
 
